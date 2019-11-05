@@ -44,3 +44,5 @@ assert(all(filas[i]==sum(matriz[i][j] for j in range(0,dimension))for i in range
 and all(columnas[i]==sum(matriz[j][i] for j in range(0,dimension)) for i in range(0,dimension)))	
 print("filas = ", filas)
 print("columnas= ", columnas)
+
+Autor Angel
